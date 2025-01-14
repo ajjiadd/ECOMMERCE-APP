@@ -1,0 +1,10 @@
+Step-1: Install React with "vite"
+    a. cmd: npm create vite@latest
+    b. enter the "project name" like "frontend"
+    b. choose the framework option "React"
+    c. choose the option "javaScript"
+    d. cmd: cd "project name"
+    e. cmd: npm install
+    f. cmd: npm install react-router-dom react-toastify
+    g. run the project-cmd: npm run dev
+    
