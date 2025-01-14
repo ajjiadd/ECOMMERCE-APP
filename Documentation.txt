@@ -7,4 +7,49 @@ Step-1: Install React with "vite"
     e. cmd: npm install
     f. cmd: npm install react-router-dom react-toastify
     g. run the project-cmd: npm run dev
+
+Step-2: follow the instractions
+    a. Delete the folder: ./frontend/src/App.css
+    b. Clear the all code from: ./frontend/src/App.jsx && type "rafce" for generate the react syntax.
+    c. Delete the folder: ./frontend/src/assets/react.svg
+    d. Clear the all code from: ./frontend/src/index.css
+    e. Chage the title name from: ./frontend/index.html
+    f. Import the assets etc.
+
+Setp-3: Connect to the tailwind Css.
+    a. At first search "vite+Tailwind" on google.
+    b. cmd: npm install -D tailwindcss postcss autoprefixer
+    c. cmd: npx tailwindcss init -p
+    d. clear all the code from: ./frontend/tailwind.config.js && paste the code which is copy from tailwind documentaion. Example code: 
+                                                /** @type {import('tailwindcss').Config} */
+                                        export default {
+                                        content: [
+                                            "./index.html",
+                                            "./src/**/*.{js,ts,jsx,tsx}",
+                                        ],
+                                        theme: {
+                                            extend: {},
+                                        },
+                                        plugins: [],
+                                        }
+                                        
+    e. " @tailwind base; @tailwind components;@tailwind utilities; " copy this code and paste in: ./frontend/src/index.css
+    f. Run the project: npm run dev
+
+
+Step-4:
+    a. Create a new folder: ./frontend/src/pages
+    b. Create a new folder: ./frontend/src/components
+    c. Create a new folder: ./frontend/src/context
+
+Step-5:
+    a. Create pages file into : ./frontend/src/pages || Like Home.jsx, Cart.jsx, Login.jsx && in every file write the syntax "rafce"
+
+step-6:
+    a. "React.StrictMode" need change with "BrowserRouter" in : ./frontend/src/main.jsx
+
+    b. Creates Routes & Route into ./frontend/src/App.jsx
+
+Step-7:
+    a: Create the components in : ./frontend/src/components
     
